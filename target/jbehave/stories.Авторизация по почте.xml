@@ -1,0 +1,32 @@
+<story path="stories/Авторизация по почте.story" title="">
+<scenario keyword="Scenario:" title="scenario description">
+<step outcome="successful">Given Открывается главная страница</step>
+<step outcome="failed" keyword="FAILED">Then Загружена страница &quot;Главная страница&quot;<failure>net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;PC&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: unknown</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When Выполнено нажатие на кнопку войти</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Загружена страница &quot;Страница авторизации&quot;</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When Проверяется валидация полей логин и пароль</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When Заполняются поля логин значением &quot;dmitriyzotovtest@yandex.ru&quot; и пароль значением &quot;767200&quot;</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When Выполнено нажатие на кнопку войти</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Загружена страница &quot;Авторизованная зона&quot;</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then Проверяется значение поля userName = &quot;Дмитрий&quot;</step>
+<failure>net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;PC&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: unknown
+	at net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:364)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at ru.deliver.zotov.autotests.steps.serenity.PageSteps$$EnhancerByCGLIB$$af03389e.pageIsLoaded(&lt;generated&gt;)
+	at ru.deliver.zotov.autotests.steps.ScenarioSteps.stepLoadedPage(ScenarioSteps.java:27)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...</failure>
+</scenario>
+</story>

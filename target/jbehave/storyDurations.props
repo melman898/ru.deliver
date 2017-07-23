@@ -1,0 +1,7 @@
+#org.jbehave.core.embedder.StoryManager
+#Sun Jul 23 22:25:24 MSK 2017
+stories/Авторизация\ по\ почте.story=37000
+threads=1
+total=37000
+threadAverage=37000
+stories/consult_dictionary/LookupADefinition.story=0

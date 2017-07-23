@@ -1,0 +1,1506 @@
+<xref>
+  <stories>
+    <performableStory>
+      <story>
+        <path>stories/consult_dictionary/LookupADefinition.story</path>
+        <description>
+          <descriptionAsString>Lookup a definition</descriptionAsString>
+        </description>
+        <narrative>
+          <inOrderTo></inOrderTo>
+          <asA></asA>
+          <iWantTo></iWantTo>
+          <soThat></soThat>
+        </narrative>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <lifecycle>
+          <before>
+            <steps class="java.util.Arrays$ArrayList">
+              <a class="string-array"/>
+            </steps>
+          </before>
+          <after/>
+        </lifecycle>
+        <scenarios>
+          <scenario>
+            <title></title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps/>
+          </scenario>
+        </scenarios>
+        <name>LookupADefinition.story</name>
+      </story>
+      <localizedNarrative>As a 
+I want to 
+So that </localizedNarrative>
+      <allowed>true</allowed>
+      <status>SUCCESSFUL</status>
+      <givenStories/>
+      <scenarios>
+        <performableScenario>
+          <scenario>
+            <title></title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps/>
+          </scenario>
+          <storyPath>stories/consult_dictionary/LookupADefinition.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+            </beforeSteps>
+            <steps>
+              <matches/>
+            </steps>
+            <afterSteps>
+              <matches/>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title></title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <properties>
+                      <property name="headerSeparator" value="|"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="ignorableSeparator" value="|--"/>
+                    </properties>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+              <steps/>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+      </scenarios>
+      <beforeSteps/>
+      <afterSteps/>
+      <timing>
+        <durationInMillis>77</durationInMillis>
+        <start>1500837887552</start>
+        <end>1500837887629</end>
+      </timing>
+      <givenStory>false</givenStory>
+    </performableStory>
+    <performableStory>
+      <story>
+        <path>stories/Авторизация по почте.story</path>
+        <description>
+          <descriptionAsString></descriptionAsString>
+        </description>
+        <narrative>
+          <inOrderTo></inOrderTo>
+          <asA></asA>
+          <iWantTo></iWantTo>
+          <soThat></soThat>
+        </narrative>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <lifecycle>
+          <before>
+            <steps class="java.util.Arrays$ArrayList">
+              <a class="string-array"/>
+            </steps>
+          </before>
+          <after/>
+        </lifecycle>
+        <scenarios>
+          <scenario>
+            <title>scenario description</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given Открывается главная страница</string>
+              <string>Then Загружена страница &quot;Главная страница&quot;</string>
+              <string>When Выполнено нажатие на кнопку войти</string>
+              <string>Then Загружена страница &quot;Страница авторизации&quot;</string>
+              <string>When Проверяется валидация полей логин и пароль</string>
+              <string>When Заполняются поля логин значением &quot;dmitriyzotovtest@yandex.ru&quot; и пароль значением &quot;767200&quot;</string>
+              <string>When Выполнено нажатие на кнопку войти</string>
+              <string>Then Загружена страница &quot;Авторизованная зона&quot;</string>
+              <string>Then Проверяется значение поля userName = &quot;Дмитрий&quot;</string>
+            </steps>
+          </scenario>
+        </scenarios>
+        <name>Авторизация по почте.story</name>
+      </story>
+      <localizedNarrative>As a 
+I want to 
+So that </localizedNarrative>
+      <allowed>true</allowed>
+      <status>FAILED</status>
+      <givenStories/>
+      <scenarios>
+        <performableScenario>
+          <scenario>
+            <title>scenario description</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given Открывается главная страница</string>
+              <string>Then Загружена страница &quot;Главная страница&quot;</string>
+              <string>When Выполнено нажатие на кнопку войти</string>
+              <string>Then Загружена страница &quot;Страница авторизации&quot;</string>
+              <string>When Проверяется валидация полей логин и пароль</string>
+              <string>When Заполняются поля логин значением &quot;dmitriyzotovtest@yandex.ru&quot; и пароль значением &quot;767200&quot;</string>
+              <string>When Выполнено нажатие на кнопку войти</string>
+              <string>Then Загружена страница &quot;Авторизованная зона&quot;</string>
+              <string>Then Проверяется значение поля userName = &quot;Дмитрий&quot;</string>
+            </steps>
+          </scenario>
+          <storyPath>stories/Авторизация по почте.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+            </beforeSteps>
+            <steps>
+              <matches/>
+              <results>
+                <successful>
+                  <step>Given Открывается главная страница</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Given Открывается главная страница</parametrisedStep>
+                  <durationInMillis>6639</durationInMillis>
+                  <start>1500837887636</start>
+                  <end>1500837894275</end>
+                </successful>
+                <failed>
+                  <step>Then Загружена страница &quot;Главная страница&quot;</step>
+                  <type>FAILED</type>
+                  <throwable>
+                    <detailMessage>Then Загружена страница &quot;Главная страница&quot;</detailMessage>
+                    <cause class="net.serenitybdd.core.exceptions.SerenityManagedException">
+                      <detailMessage>org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;PC&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: unknown</detailMessage>
+                      <cause class="org.openqa.selenium.NoSuchElementException" defined-in="java.lang.Throwable">
+                        <detailMessage>Timed out after 2 seconds. Element not found</detailMessage>
+                        <stackTrace>
+                          <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:151)</trace>
+                          <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:103)</trace>
+                          <trace>net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:27)</trace>
+                          <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:173)</trace>
+                          <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.isDisplayed(WebElementFacadeImpl.java:1050)</trace>
+                          <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                          <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                          <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                          <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                          <trace>net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)</trace>
+                          <trace>com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)</trace>
+                          <trace>ru.deliver.zotov.autotests.pages.MainDeliverPage.isLoaded(MainDeliverPage.java:24)</trace>
+                          <trace>ru.deliver.zotov.autotests.steps.serenity.PageSteps.pageIsLoaded(PageSteps.java:47)</trace>
+                          <trace>ru.deliver.zotov.autotests.steps.serenity.PageSteps$$EnhancerByCGLIB$$af03389e.CGLIB$pageIsLoaded$0(&lt;generated&gt;)</trace>
+                          <trace>ru.deliver.zotov.autotests.steps.serenity.PageSteps$$EnhancerByCGLIB$$af03389e$$FastClassByCGLIB$$4f95fdb1.invoke(&lt;generated&gt;)</trace>
+                          <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                          <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)</trace>
+                          <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)</trace>
+                          <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)</trace>
+                          <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)</trace>
+                          <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                          <trace>ru.deliver.zotov.autotests.steps.serenity.PageSteps$$EnhancerByCGLIB$$af03389e.pageIsLoaded(&lt;generated&gt;)</trace>
+                          <trace>ru.deliver.zotov.autotests.steps.ScenarioSteps.stepLoadedPage(ScenarioSteps.java:27)</trace>
+                          <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                          <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                          <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                          <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                          <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                          <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                          <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                          <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                          <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                          <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                          <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                        </stackTrace>
+                        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                          <c class="list"/>
+                          <list/>
+                        </suppressedExceptions>
+                        <extraInfo>
+                          <entry>
+                            <string>Driver info</string>
+                            <string>driver.version: unknown</string>
+                          </entry>
+                        </extraInfo>
+                      </cause>
+                      <stackTrace defined-in="java.lang.Throwable">
+                        <trace>net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:364)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                        <trace>ru.deliver.zotov.autotests.steps.serenity.PageSteps$$EnhancerByCGLIB$$af03389e.pageIsLoaded(&lt;generated&gt;)</trace>
+                        <trace>ru.deliver.zotov.autotests.steps.ScenarioSteps.stepLoadedPage(ScenarioSteps.java:27)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                        <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                        <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                      </stackTrace>
+                      <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                        <c class="list"/>
+                        <list/>
+                      </suppressedExceptions>
+                      <detailedMessage>Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;PC&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: unknown</detailedMessage>
+                      <stackTrace>
+                        <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:151)</trace>
+                        <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:103)</trace>
+                        <trace>net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:27)</trace>
+                        <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:173)</trace>
+                        <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.isDisplayed(WebElementFacadeImpl.java:1050)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                        <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                        <trace>net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)</trace>
+                        <trace>com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)</trace>
+                        <trace>ru.deliver.zotov.autotests.pages.MainDeliverPage.isLoaded(MainDeliverPage.java:24)</trace>
+                        <trace>ru.deliver.zotov.autotests.steps.serenity.PageSteps.pageIsLoaded(PageSteps.java:47)</trace>
+                        <trace>ru.deliver.zotov.autotests.steps.serenity.PageSteps$$EnhancerByCGLIB$$af03389e.CGLIB$pageIsLoaded$0(&lt;generated&gt;)</trace>
+                        <trace>ru.deliver.zotov.autotests.steps.serenity.PageSteps$$EnhancerByCGLIB$$af03389e$$FastClassByCGLIB$$4f95fdb1.invoke(&lt;generated&gt;)</trace>
+                        <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                        <trace>ru.deliver.zotov.autotests.steps.serenity.PageSteps$$EnhancerByCGLIB$$af03389e.pageIsLoaded(&lt;generated&gt;)</trace>
+                        <trace>ru.deliver.zotov.autotests.steps.ScenarioSteps.stepLoadedPage(ScenarioSteps.java:27)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                        <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                        <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                      </stackTrace>
+                      <exceptionClass>org.openqa.selenium.NoSuchElementException</exceptionClass>
+                    </cause>
+                    <stackTrace>
+                      <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                    </stackTrace>
+                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                      <c class="list"/>
+                      <list/>
+                    </suppressedExceptions>
+                    <uuid>cca3ec8c-d95f-41df-8fbd-d8e271ec18f1</uuid>
+                  </throwable>
+                  <parametrisedStep>Then Загружена страница &quot;Главная страница&quot;</parametrisedStep>
+                  <durationInMillis>29119</durationInMillis>
+                  <start>1500837895613</start>
+                  <end>1500837924732</end>
+                </failed>
+                <notPerformed>
+                  <step>When Выполнено нажатие на кнопку войти</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>When Выполнено нажатие на кнопку войти</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
+                  <step>Then Загружена страница &quot;Страница авторизации&quot;</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>Then Загружена страница &quot;Страница авторизации&quot;</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
+                  <step>When Проверяется валидация полей логин и пароль</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>When Проверяется валидация полей логин и пароль</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
+                  <step>When Заполняются поля логин значением &quot;dmitriyzotovtest@yandex.ru&quot; и пароль значением &quot;767200&quot;</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>When Заполняются поля логин значением &quot;dmitriyzotovtest@yandex.ru&quot; и пароль значением &quot;767200&quot;</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
+                  <step>When Выполнено нажатие на кнопку войти</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>When Выполнено нажатие на кнопку войти</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
+                  <step>Then Загружена страница &quot;Авторизованная зона&quot;</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>Then Загружена страница &quot;Авторизованная зона&quot;</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
+                  <step>Then Проверяется значение поля userName = &quot;Дмитрий&quot;</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>Then Проверяется значение поля userName = &quot;Дмитрий&quot;</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>scenario description</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <properties>
+                      <property name="headerSeparator" value="|"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="ignorableSeparator" value="|--"/>
+                    </properties>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+              <steps>
+                <string>Given Открывается главная страница</string>
+                <string>Then Загружена страница &quot;Главная страница&quot;</string>
+                <string>When Выполнено нажатие на кнопку войти</string>
+                <string>Then Загружена страница &quot;Страница авторизации&quot;</string>
+                <string>When Проверяется валидация полей логин и пароль</string>
+                <string>When Заполняются поля логин значением &quot;dmitriyzotovtest@yandex.ru&quot; и пароль значением &quot;767200&quot;</string>
+                <string>When Выполнено нажатие на кнопку войти</string>
+                <string>Then Загружена страница &quot;Авторизованная зона&quot;</string>
+                <string>Then Проверяется значение поля userName = &quot;Дмитрий&quot;</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>FAILED</status>
+        </performableScenario>
+      </scenarios>
+      <beforeSteps/>
+      <afterSteps/>
+      <timing>
+        <durationInMillis>37191</durationInMillis>
+        <start>1500837887633</start>
+        <end>1500837924824</end>
+      </timing>
+      <givenStory>false</givenStory>
+    </performableStory>
+  </stories>
+  <scenarios>
+    <performableScenario>
+      <scenario>
+        <title></title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+        </examplesTable>
+        <steps/>
+      </scenario>
+      <storyPath>stories/consult_dictionary/LookupADefinition.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+        </beforeSteps>
+        <steps>
+          <matches/>
+        </steps>
+        <afterSteps>
+          <matches/>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title></title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+          <steps/>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+    <performableScenario>
+      <scenario>
+        <title>scenario description</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+        </examplesTable>
+        <steps>
+          <string>Given Открывается главная страница</string>
+          <string>Then Загружена страница &quot;Главная страница&quot;</string>
+          <string>When Выполнено нажатие на кнопку войти</string>
+          <string>Then Загружена страница &quot;Страница авторизации&quot;</string>
+          <string>When Проверяется валидация полей логин и пароль</string>
+          <string>When Заполняются поля логин значением &quot;dmitriyzotovtest@yandex.ru&quot; и пароль значением &quot;767200&quot;</string>
+          <string>When Выполнено нажатие на кнопку войти</string>
+          <string>Then Загружена страница &quot;Авторизованная зона&quot;</string>
+          <string>Then Проверяется значение поля userName = &quot;Дмитрий&quot;</string>
+        </steps>
+      </scenario>
+      <storyPath>stories/Авторизация по почте.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+        </beforeSteps>
+        <steps>
+          <matches/>
+          <results>
+            <successful>
+              <step>Given Открывается главная страница</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Given Открывается главная страница</parametrisedStep>
+              <durationInMillis>6639</durationInMillis>
+              <start>1500837887636</start>
+              <end>1500837894275</end>
+            </successful>
+            <failed>
+              <step>Then Загружена страница &quot;Главная страница&quot;</step>
+              <type>FAILED</type>
+              <throwable>
+                <detailMessage>Then Загружена страница &quot;Главная страница&quot;</detailMessage>
+                <cause class="net.serenitybdd.core.exceptions.SerenityManagedException">
+                  <detailMessage>org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;PC&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: unknown</detailMessage>
+                  <cause class="org.openqa.selenium.NoSuchElementException" defined-in="java.lang.Throwable">
+                    <detailMessage>Timed out after 2 seconds. Element not found</detailMessage>
+                    <stackTrace>
+                      <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:151)</trace>
+                      <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:103)</trace>
+                      <trace>net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:27)</trace>
+                      <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:173)</trace>
+                      <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.isDisplayed(WebElementFacadeImpl.java:1050)</trace>
+                      <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                      <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                      <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                      <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                      <trace>net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)</trace>
+                      <trace>com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)</trace>
+                      <trace>ru.deliver.zotov.autotests.pages.MainDeliverPage.isLoaded(MainDeliverPage.java:24)</trace>
+                      <trace>ru.deliver.zotov.autotests.steps.serenity.PageSteps.pageIsLoaded(PageSteps.java:47)</trace>
+                      <trace>ru.deliver.zotov.autotests.steps.serenity.PageSteps$$EnhancerByCGLIB$$af03389e.CGLIB$pageIsLoaded$0(&lt;generated&gt;)</trace>
+                      <trace>ru.deliver.zotov.autotests.steps.serenity.PageSteps$$EnhancerByCGLIB$$af03389e$$FastClassByCGLIB$$4f95fdb1.invoke(&lt;generated&gt;)</trace>
+                      <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                      <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)</trace>
+                      <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)</trace>
+                      <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)</trace>
+                      <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)</trace>
+                      <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                      <trace>ru.deliver.zotov.autotests.steps.serenity.PageSteps$$EnhancerByCGLIB$$af03389e.pageIsLoaded(&lt;generated&gt;)</trace>
+                      <trace>ru.deliver.zotov.autotests.steps.ScenarioSteps.stepLoadedPage(ScenarioSteps.java:27)</trace>
+                      <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                      <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                      <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                      <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                      <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                    </stackTrace>
+                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                      <c class="list"/>
+                      <list/>
+                    </suppressedExceptions>
+                    <extraInfo>
+                      <entry>
+                        <string>Driver info</string>
+                        <string>driver.version: unknown</string>
+                      </entry>
+                    </extraInfo>
+                  </cause>
+                  <stackTrace defined-in="java.lang.Throwable">
+                    <trace>net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:364)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                    <trace>ru.deliver.zotov.autotests.steps.serenity.PageSteps$$EnhancerByCGLIB$$af03389e.pageIsLoaded(&lt;generated&gt;)</trace>
+                    <trace>ru.deliver.zotov.autotests.steps.ScenarioSteps.stepLoadedPage(ScenarioSteps.java:27)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                    <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                    <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                    <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                  </stackTrace>
+                  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                    <c class="list"/>
+                    <list/>
+                  </suppressedExceptions>
+                  <detailedMessage>Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;PC&apos;, ip: &apos;192.168.1.66&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: unknown</detailedMessage>
+                  <stackTrace>
+                    <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:151)</trace>
+                    <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:103)</trace>
+                    <trace>net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:27)</trace>
+                    <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:173)</trace>
+                    <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.isDisplayed(WebElementFacadeImpl.java:1050)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                    <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                    <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                    <trace>net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)</trace>
+                    <trace>com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)</trace>
+                    <trace>ru.deliver.zotov.autotests.pages.MainDeliverPage.isLoaded(MainDeliverPage.java:24)</trace>
+                    <trace>ru.deliver.zotov.autotests.steps.serenity.PageSteps.pageIsLoaded(PageSteps.java:47)</trace>
+                    <trace>ru.deliver.zotov.autotests.steps.serenity.PageSteps$$EnhancerByCGLIB$$af03389e.CGLIB$pageIsLoaded$0(&lt;generated&gt;)</trace>
+                    <trace>ru.deliver.zotov.autotests.steps.serenity.PageSteps$$EnhancerByCGLIB$$af03389e$$FastClassByCGLIB$$4f95fdb1.invoke(&lt;generated&gt;)</trace>
+                    <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                    <trace>ru.deliver.zotov.autotests.steps.serenity.PageSteps$$EnhancerByCGLIB$$af03389e.pageIsLoaded(&lt;generated&gt;)</trace>
+                    <trace>ru.deliver.zotov.autotests.steps.ScenarioSteps.stepLoadedPage(ScenarioSteps.java:27)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                    <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                    <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                    <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                  </stackTrace>
+                  <exceptionClass>org.openqa.selenium.NoSuchElementException</exceptionClass>
+                </cause>
+                <stackTrace>
+                  <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                  <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                </stackTrace>
+                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                  <c class="list"/>
+                  <list/>
+                </suppressedExceptions>
+                <uuid>cca3ec8c-d95f-41df-8fbd-d8e271ec18f1</uuid>
+              </throwable>
+              <parametrisedStep>Then Загружена страница &quot;Главная страница&quot;</parametrisedStep>
+              <durationInMillis>29119</durationInMillis>
+              <start>1500837895613</start>
+              <end>1500837924732</end>
+            </failed>
+            <notPerformed>
+              <step>When Выполнено нажатие на кнопку войти</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>When Выполнено нажатие на кнопку войти</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
+              <step>Then Загружена страница &quot;Страница авторизации&quot;</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>Then Загружена страница &quot;Страница авторизации&quot;</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
+              <step>When Проверяется валидация полей логин и пароль</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>When Проверяется валидация полей логин и пароль</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
+              <step>When Заполняются поля логин значением &quot;dmitriyzotovtest@yandex.ru&quot; и пароль значением &quot;767200&quot;</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>When Заполняются поля логин значением &quot;dmitriyzotovtest@yandex.ru&quot; и пароль значением &quot;767200&quot;</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
+              <step>When Выполнено нажатие на кнопку войти</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>When Выполнено нажатие на кнопку войти</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
+              <step>Then Загружена страница &quot;Авторизованная зона&quot;</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>Then Загружена страница &quot;Авторизованная зона&quot;</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
+              <step>Then Проверяется значение поля userName = &quot;Дмитрий&quot;</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>Then Проверяется значение поля userName = &quot;Дмитрий&quot;</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>scenario description</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+          <steps>
+            <string>Given Открывается главная страница</string>
+            <string>Then Загружена страница &quot;Главная страница&quot;</string>
+            <string>When Выполнено нажатие на кнопку войти</string>
+            <string>Then Загружена страница &quot;Страница авторизации&quot;</string>
+            <string>When Проверяется валидация полей логин и пароль</string>
+            <string>When Заполняются поля логин значением &quot;dmitriyzotovtest@yandex.ru&quot; и пароль значением &quot;767200&quot;</string>
+            <string>When Выполнено нажатие на кнопку войти</string>
+            <string>Then Загружена страница &quot;Авторизованная зона&quot;</string>
+            <string>Then Проверяется значение поля userName = &quot;Дмитрий&quot;</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>FAILED</status>
+    </performableScenario>
+  </scenarios>
+</xref>

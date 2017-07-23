@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: ru.deliver.zotov.autotests.AcceptanceTestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 2, Errors: 2, Skipped: 7, Time elapsed: 38.975 sec <<< FAILURE! - in ru.deliver.zotov.autotests.AcceptanceTestSuite
+Then Загружена страница "Главная страница"(ru.deliver.zotov.autotests.steps.ScenarioSteps)  Time elapsed: 29.138 sec  <<< ERROR!
+net.serenitybdd.core.exceptions.SerenityManagedException: 
+Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'PC', ip: '192.168.1.66', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at ru.deliver.zotov.autotests.steps.ScenarioSteps.stepLoadedPage(ScenarioSteps.java:27)
+
+Scenario: scenario description  Time elapsed: 29.211 sec  <<< FAILURE!
+java.lang.AssertionError: scenario failed!
+
+Авторизация по почте.story  Time elapsed: 29.217 sec  <<< FAILURE!
+java.lang.AssertionError: story failed!
+
+ru.deliver.zotov.autotests.AcceptanceTestSuite  Time elapsed: 0.794 sec  <<< ERROR!
+java.lang.RuntimeException: 
+org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: 
+org.jbehave.core.embedder.PerformableTree$SomethingHappened@41b5d106: net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'PC', ip: '192.168.1.66', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+Caused by: org.jbehave.core.embedder.Embedder$RunningStoriesFailed: 
+Failures in running stories: 
+org.jbehave.core.embedder.PerformableTree$SomethingHappened@41b5d106: net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'PC', ip: '192.168.1.66', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+

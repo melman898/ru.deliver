@@ -1,0 +1,6 @@
+ru\deliver\zotov\autotests\pages\LoginPage.class
+ru\deliver\zotov\autotests\steps\ScenarioSteps.class
+ru\deliver\zotov\autotests\pages\InnerPage.class
+ru\deliver\zotov\autotests\steps\serenity\UserSteps.class
+ru\deliver\zotov\autotests\pages\MainDeliverPage.class
+ru\deliver\zotov\autotests\steps\serenity\PageSteps.class
